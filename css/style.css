@@ -1,0 +1,198 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    background: url(../assets/principal.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1110px;
+    margin: auto;
+    margin-top: 47px;
+}
+
+.hero{
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 14px;
+}
+
+.logo{
+    text-decoration: none;  
+    font-family: 'Koh Santepheap',sans-serif;
+    font-size: 36px;
+    color:  #000000;
+}
+
+.menu{
+    display: flex;
+    justify-content:space-between;
+    list-style: none;
+    text-decoration: none;
+    gap: 83.5px;
+}
+
+li{
+    list-style: none;
+}
+
+
+a{
+    text-decoration: none;  
+    font-family: 'Koh Santepheap',sans-serif;
+    font-size: 26px;
+    color:  #000000;   
+}
+
+.titulo{
+    font-family: 'Krona One',sans-serif;
+    font-weight: 400px;
+    font-size: 60px;
+    color:#FC49EA ; 
+    text-shadow: 0px 6px 0px rgba(0, 0, 0, 0.16);
+}
+
+h2{
+    font-family: 'Koh Santepheap';
+    font-weight: 700px;
+    font-size: 26px;
+    color: #000000;    
+}
+
+p{
+    font-family: 'Koh Santepheap',sans-serif;
+    font-size: 16px;
+    line-height: 22px;
+    color: #000000;
+    width: 316px; 
+    
+}
+
+.hero p{
+    text-align: center;
+}
+
+.botao{
+    font-family: 'Koh Santepheap',sans-serif;
+    font-size: 12px;
+    color: #FFFFFF;
+    background: #130F0F;
+    border-radius: 14px;
+    margin-bottom: 80px;
+    padding: 10px;
+    display: block; 
+}
+
+.botao:hover{
+
+    color:#FC49EA;   
+    text-decoration: none;
+    transition: all 500ms;
+
+}
+
+.sobremim{
+    max-width: 803px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 36px;
+    margin-bottom: 128px;
+}
+
+h5{
+    font-family: 'Koh Santepheap',sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+}
+
+.foto{
+    border-radius: 108px;
+    width: 150px;
+    height: 150px;
+    
+}
+
+.projetos h2{
+   text-align: center;
+   color: #000000;
+   font-size: 60px;
+      
+}
+
+.list__projetos{
+    max-width: 1133px;
+    margin: auto;
+    text-align: center;
+    margin-top: 112px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 47.83px;
+}
+
+h3{
+
+  font-family: "Koh Santepheap",sans-serif;
+  font-size: 30px;
+  font-weight: 400px;
+  text-align: left;
+   
+}
+
+.list__projetos li{
+    width: 234px;
+}
+
+.list__projetos li h3{
+    text-align: center;
+}
+
+.titulosegundo{
+
+    font-family: 'Krona One',sans-serif;
+    font-weight: 400px;
+    text-shadow: 0px 6px 0px rgba(0, 0, 0, 0.16);
+    margin: 112px auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+ 
+ 
+
+  
+  
+
+
+
+
+
+
